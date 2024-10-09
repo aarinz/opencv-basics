@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-img = cv.imread('/home/aarin-zach/Desktop/Codes/opencv/ocv_pics/car1.jpg')
+img = cv.imread('/home/aarin-zach/Desktop/Codes/opencv/ocv_pics/lambo.jpg')
 cv.imshow('Car', img)
 
 # Translation
