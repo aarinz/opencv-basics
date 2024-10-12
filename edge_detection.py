@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-img = cv.imread('/home/aarin-zach/Desktop/Codes/opencv/ocv_pics/mclaren.jpg')
+img = cv.imread('/home/aarin-zach/Desktop/Codes/opencv/Assets/ocv_pics/mclaren.jpg')
 cv.imshow('Park', img)
 
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)

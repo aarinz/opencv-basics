@@ -1,6 +1,6 @@
 import cv2 as cv
 
-img = cv.imread('/home/aarin-zach/Desktop/Codes/opencv/ocv_pics/lambo.jpg')
+img = cv.imread('/home/aarin-zach/Desktop/Codes/opencv/Assets/ocv_pics/lambo.jpg')
 cv.imshow('Car', img) 
 
 def Rescale(frame, scale=0.4):
@@ -20,7 +20,7 @@ def Rescale(frame, scale=0.4):
 resized_img = Rescale(img)
 cv.imshow('resized img', resized_img)
 
-capture = cv.VideoCapture('opencv/ocv_vid/carvid1.mp4') 
+capture = cv.VideoCapture('/home/aarin-zach/Desktop/Codes/opencv/Assets/ocv_vid/carvid1.mp4') 
 while True:
     isTrue, frame = capture.read()
 

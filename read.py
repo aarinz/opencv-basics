@@ -9,7 +9,7 @@ import cv2 as cv
 
 
 #vidoes
-capture = cv.VideoCapture('opencv/ocv_vid/carvid1.mp4') # inside bracket write 0 if webcam or 1 or 2 if other cams and path is vid
+capture = cv.VideoCapture('/home/aarin-zach/Desktop/Codes/opencv/Assets/ocv_vid/carvid1.mp4') # inside bracket write 0 if webcam or 1 or 2 if other cams and path is vid
 
 while True:
     isTrue, frame = capture.read()#reads frame by frame

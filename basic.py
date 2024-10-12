@@ -1,6 +1,6 @@
 import cv2 as cv
 
-img = cv.imread('/home/aarin-zach/Desktop/Codes/opencv/ocv_pics/mclaren.jpg')
+img = cv.imread('/home/aarin-zach/Desktop/Codes/opencv/Assets/ocv_pics/mclaren.jpg')
 cv.imshow('mclaren', img)
 
 #gray

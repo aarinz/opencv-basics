@@ -3,7 +3,7 @@ import numpy as np
 
 
 
-img = cv.imread('ocv_pics/lambo.jpg')
+img = cv.imread('/home/aarin-zach/Desktop/Codes/opencv/Assets/ocv_pics/lambo.jpg')
 cv.imshow('img', img)
 
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
