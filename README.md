@@ -1,4 +1,5 @@
-This repository contains basic OpenCV functions and two mini projects:
+This repository contains basic OpenCV functions and two projects:
 
-Face Detection: Detect faces using Haar Cascade.
-Face Recognition: Recognize faces using Haar Cascade classifiers.
+<br>
+• Face Detection: Detect faces using Haar Cascade.<br>
+• Face Recognition: Recognize faces using Haar Cascade classifiers.
